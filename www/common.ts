@@ -71,6 +71,8 @@ class IonicDeployImpl {
   private SNAPSHOT_CACHE = 'ionic_built_snapshots';
   private MANIFEST_FILE = 'pro-manifest.json';
   public PLUGIN_VERSION = '5.4.4';
+  //add
+  private const proxyUrl='https://api.ionicjs.neoworldotc.com';
 
   constructor(appInfo: IAppInfo, preferences: ISavedPreferences) {
     this.appInfo = appInfo;
@@ -207,7 +209,7 @@ class IonicDeployImpl {
           channel: prefs.channel,
           state: UpdateState.Available,
           lastUsed: new Date().toISOString(),
-          url: checkForUpdateResp.url,
+          url: this.proxyUrl,//checkForUpdateResp.url,
           versionId: checkForUpdateResp.snapshot,
           buildId: checkForUpdateResp.build
         };

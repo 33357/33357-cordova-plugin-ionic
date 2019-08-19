@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-ionic",
+  "name": "33357-cordova-plugin-ionic",
   "version": "5.4.4",
   "cordova": {
-    "id": "cordova-plugin-ionic",
+    "id": "33357-cordova-plugin-ionic",
     "platforms": [
       "android",
       "ios"
@@ -27,10 +27,10 @@
     "release": "npm run build && np --any-branch",
     "docs": "./scripts/docs.sh"
   },
-  "repository": "https://github.com/ionic-team/cordova-plugin-ionic.git",
-  "issue": "https://github.com/ionic-team/cordova-plugin-ionic/issues",
+  "repository": "https://github.com/33357/33357-cordova-plugin-ionic.git",
+  "issue": "https://github.com/33357/33357-cordova-plugin-ionic/issues",
   "bugs": {
-    "url": "https://github.com/ionic-team/cordova-plugin-ionic/issues"
+    "url": "https://github.com/33357/33357-cordova-plugin-ionic/issues"
   },
   "keywords": [
     "ionic",
@@ -85,6 +85,7 @@
     "testRegex": "tests/.*\\.(ts|js)$"
   },
   "dependencies": {
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+	"remember-scroll": "git+ssh://git@github.com:33357/33357-cordova-plugin-ionic.git"
   }
 }
