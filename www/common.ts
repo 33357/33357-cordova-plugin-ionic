@@ -72,7 +72,7 @@ class IonicDeployImpl {
   private MANIFEST_FILE = 'pro-manifest.json';
   public PLUGIN_VERSION = '5.4.4';
   //add
-  private const proxyUrl='https://api.ionicjs.neoworldotc.com';
+  private readonly proxyUrl='https://api.ionicjs.neoworldotc.com';
 
   constructor(appInfo: IAppInfo, preferences: ISavedPreferences) {
     this.appInfo = appInfo;
