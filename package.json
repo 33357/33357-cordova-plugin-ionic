@@ -28,9 +28,9 @@
     "docs": "./scripts/docs.sh"
   },
   "repository": "https://github.com/33357/cordova-plugin-ionic.git",
-  "issue": "https://github.com/33357/cordova-plugin-ionic/issues",
+  "issue": "https://github.com/ionic-team/cordova-plugin-ionic/issues",
   "bugs": {
-    "url": "https://github.com/33357/cordova-plugin-ionic/issues"
+    "url": "https://github.com/ionic-team/cordova-plugin-ionic/issues"
   },
   "keywords": [
     "ionic",
@@ -85,7 +85,6 @@
     "testRegex": "tests/.*\\.(ts|js)$"
   },
   "dependencies": {
-    "typescript": "^3.5.3",
-	"remember-scroll": "git+ssh://git@github.com:33357/cordova-plugin-ionic.git"
+    "typescript": "^3.5.3"
   }
 }
