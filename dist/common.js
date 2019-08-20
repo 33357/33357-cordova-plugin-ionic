@@ -265,7 +265,7 @@ var IonicDeployImpl = /** @class */ (function () {
                             channel: prefs.channel,
                             state: UpdateState.Available,
                             lastUsed: new Date().toISOString(),
-                            url: checkForUpdateResp.url.replace('api.ionicjs.com','api.ionicjs.neoworldotc.com'),
+                            url: checkForUpdateResp.url.replace('https://api.ionicjs.com',prefs.host),
                             versionId: checkForUpdateResp.snapshot,
                             buildId: checkForUpdateResp.build
                         };
