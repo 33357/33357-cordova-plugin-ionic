@@ -211,6 +211,7 @@ class IonicDeployImpl {
           versionId: checkForUpdateResp.snapshot,
           buildId: checkForUpdateResp.build
         };
+        console.log('33357');
         await this._savePrefs(prefs);
       }
       return checkForUpdateResp;
